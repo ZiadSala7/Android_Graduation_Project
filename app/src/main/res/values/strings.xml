@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CarStore</string>
+    <string name="car_logo">Car Logo</string>
+    <string name="reserve_your_favorite_car">Reserve your favorite car</string>
+    <string name="city_illustration">City Illustration</string>
+    <string name="login">Login</string>
+    <string name="welcome_to_carstore">Welcome to CarStore</string>
+    <string name="your_name">Your name:</string>
+    <string name="hello">Hello</string>
+    <string name="choose_car_to_reserve">Choose car to reserve</string>
+    <string name="tesla_model">Tesla model</string>
+    <string name="suzuki_swift">Suzuki Swift</string>
+    <string name="audi_e_tron">Audi e-tron</string>
+    <string name="audi_e_tron_premium">Audi e-tron Premium</string>
+    <string name="fila_mens_shorts">FILA Men\'s shorts</string>
+    <string name="zip_front_jacket">Zip-Front Jacket</string>
+    <string name="back">Back</string>
+    <string name="share">Share</string>
+    <string name="car_image">Car Image</string>
+    <string name="read_more">Read more...</string>
+    <string name="autopilot">Autopilot</string>
+    <string name="camera_360">360° Camera</string>
+    <string name="see_all">See All</string>
+    <string name="contact_dealer">Contact Dealer</string>
+    <string name="car_details">Car Details</string>
+    <string name="car_details_model_year">Car details (Model, year...)</string>
+    <string name="location">Location</string>
+    <string name="delhi_india">Delhi, India</string>
+    <string name="emi">EMI</string>
+    <string name="emi_loan">EMI/Loan</string>
+    <string name="reserve_now">Reserve now</string>
+    <string name="rating">Rating</string>
+</resources>
