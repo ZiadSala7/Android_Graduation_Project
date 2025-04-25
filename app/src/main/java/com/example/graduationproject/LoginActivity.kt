@@ -9,15 +9,15 @@ import com.example.graduationproject.R
 
 class LoginActivity : AppCompatActivity() {
 
-    private lateinit var etName: TextInputEditText
-    private lateinit var btnLogin: MaterialButton
+    //private lateinit var etName: TextInputEditText
+    //private lateinit var btnLogin: MaterialButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        etName = findViewById(R.id.et_name)
-        btnLogin = findViewById(R.id.btn_login)
+       var etName = findViewById<TextInputEditText>(R.id.et_name)
+       var btnLogin = findViewById<MaterialButton>(R.id.btn_login)
 
         btnLogin.setOnClickListener {
             val username = etName.text.toString()

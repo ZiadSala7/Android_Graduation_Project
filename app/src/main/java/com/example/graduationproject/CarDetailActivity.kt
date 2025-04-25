@@ -10,15 +10,15 @@ import com.example.graduationproject.R
 
 class CarDetailActivity : AppCompatActivity() {
 
-    private lateinit var btnBack: ImageButton
-    private lateinit var btnReserve: MaterialButton
+    //private lateinit var btnBack: ImageButton
+    //private lateinit var btnReserve: MaterialButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_car_detail)
 
-        btnBack = findViewById(R.id.btn_back)
-        btnReserve = findViewById(R.id.btn_reserve)
+        var btnBack = findViewById<ImageButton>(R.id.btn_back)
+        var btnReserve = findViewById<MaterialButton>(R.id.btn_reserve)
 
         btnBack.setOnClickListener {
             finish()

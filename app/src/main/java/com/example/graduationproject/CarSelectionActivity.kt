@@ -9,13 +9,13 @@ import com.example.graduationproject.R
 
 class CarSelectionActivity : AppCompatActivity() {
 
-    private lateinit var tvUsername: TextView
+    //private lateinit var tvUsername: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_car_selection)
 
-        tvUsername = findViewById(R.id.tv_username)
+        var tvUsername = findViewById<TextView>(R.id.tv_username)
 
         // Get username from intent
         val username = intent.getStringExtra("USERNAME") ?: "User"
