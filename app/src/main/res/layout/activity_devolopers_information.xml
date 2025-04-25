@@ -51,7 +51,7 @@
             android:id="@+id/tvName2"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:text="Ali Eid-Elnassr (alixeid)"
+            android:text="Ali Eid-Elnassr"
             android:textStyle="bold"
             android:textSize="16sp"
             android:layout_height="wrap_content"/>
@@ -144,7 +144,7 @@
             android:id="@+id/tvName5"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:text="Yousef Haron (Beso)"
+            android:text="Yousef Haroun "
             android:textStyle="bold"
             android:textSize="16sp"
             android:layout_height="wrap_content"/>
