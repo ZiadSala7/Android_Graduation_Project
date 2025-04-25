@@ -32,13 +32,24 @@
 
         <activity
             android:name=".CarSelectionActivity"
+            android:label="Select Car"
             android:exported="false"
             android:theme="@style/Theme.CarStore.NoActionBar" />
 
         <activity
             android:name=".CarDetailActivity"
+            android:label="Car Details"
             android:exported="false"
             android:theme="@style/Theme.CarStore.NoActionBar" />
+
+        <activity
+            android:name=".DocumentInput"
+            android:label="Document"
+            />
+        <activity
+            android:name=".DisplayActivity"
+            android:label="Confirm Information"
+            />
     </application>
 
 </manifest>
