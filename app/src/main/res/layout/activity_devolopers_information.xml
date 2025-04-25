@@ -219,4 +219,11 @@
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
+    <Button
+        android:id="@+id/Repo_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GitHup Repo"
+        />
+
 </LinearLayout>
