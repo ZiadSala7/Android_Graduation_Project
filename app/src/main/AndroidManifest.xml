@@ -50,6 +50,11 @@
             android:name=".DisplayActivity"
             android:label="Confirm Information"
             />
+
+        <activity
+            android:name=".Devolopers_Display"
+            android:label="Best Team"
+            />
     </application>
 
 </manifest>
