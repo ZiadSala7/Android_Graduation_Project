@@ -20,7 +20,7 @@ data class Car(
 
 class CarSelectionActivity : AppCompatActivity() {
 
-    private lateinit var tvUsername: TextView
+    //private lateinit var tvUsername: TextView
 
     private fun openCarDetail(car: Car) {
         val intent = Intent(this, CarDetailActivity::class.java)
@@ -32,7 +32,7 @@ class CarSelectionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_car_selection)
 
-        tvUsername = findViewById(R.id.tv_username)
+        var tvUsername = findViewById<TextView>(R.id.tv_username)
 
         // Get username from intent
         val username = intent.getStringExtra("USERNAME") ?: "User"

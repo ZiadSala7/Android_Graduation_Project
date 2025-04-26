@@ -1,4 +1,5 @@
 package com.example.graduationproject
+import android.content.Intent
 import android.widget.TextView
 import android.widget.ImageView
 
@@ -12,23 +13,19 @@ import com.example.graduationproject.R
 
 class CarDetailActivity : AppCompatActivity() {
 
-    private lateinit var btnBack: ImageButton
-    private lateinit var btnReserve: MaterialButton
+    //private lateinit var btnBack: ImageButton
+    //private lateinit var btnReserve: MaterialButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_car_detail)
 
-        btnBack = findViewById(R.id.btn_back)
-        btnReserve = findViewById(R.id.btn_reserve)
+        var btnBack = findViewById<ImageButton>(R.id.btn_back)
+        var btnReserve = findViewById<MaterialButton>(R.id.btn_reserve)
 
         btnBack.setOnClickListener {
             finish()
         }
-        btnReserve.setOnClickListener {
-            Toast.makeText(this, "Car reserved successfully!", Toast.LENGTH_SHORT).show()
-        }
-
         // Get Car Details From Cars View
 
         @Suppress("DEPRECATION")
@@ -46,6 +43,11 @@ class CarDetailActivity : AppCompatActivity() {
             carDescription.text = it.description.toString()
             carRate.text = it.rate.toString()
             carPrice.text = it.price.toString()
+        }
+
+        btnReserve.setOnClickListener {
+            val intent = Intent(this, DocumentInput::class.java)
+            startActivity(intent)
         }
     }
 }

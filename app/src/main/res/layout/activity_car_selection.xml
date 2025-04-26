@@ -112,34 +112,34 @@
             app:cardElevation="2dp">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
+                    android:contentDescription="@string/suzuki_swift"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/img_suzuki"
-                    android:contentDescription="@string/suzuki_swift" />
+                    android:src="@drawable/img_suzuki" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:text="@string/suzuki_swift"
                     android:textAlignment="center"
                     android:textColor="@color/text_dark"
-                    android:textSize="14sp"
-                    android:layout_marginTop="8dp" />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:text="$45"
                     android:textAlignment="center"
                     android:textColor="@color/purple_primary"
-                    android:textSize="14sp"
-                    android:layout_marginBottom="8dp" />
+                    android:textSize="14sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
