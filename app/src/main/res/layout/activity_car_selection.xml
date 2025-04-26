@@ -61,6 +61,7 @@
 
         <!-- Tesla Model -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/tesla"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -102,7 +103,7 @@
 
         <!-- Suzuki Swift -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card"
+            android:id="@+id/suzuki"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -144,6 +145,7 @@
 
         <!-- Audi e-tron Premium -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/audi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -185,6 +187,7 @@
 
         <!-- FILA Men's shorts -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/fila"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -226,6 +229,7 @@
 
         <!-- Zip-Front Jacket (Red) -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/jacket_red"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -267,6 +271,7 @@
 
         <!-- Zip-Front Jacket (Yellow) -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/jacket_yellow"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"

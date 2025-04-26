@@ -1,4 +1,6 @@
 package com.example.graduationproject
+import android.widget.TextView
+import android.widget.ImageView
 
 import android.os.Bundle
 import android.widget.ImageButton
@@ -25,6 +27,25 @@ class CarDetailActivity : AppCompatActivity() {
         }
         btnReserve.setOnClickListener {
             Toast.makeText(this, "Car reserved successfully!", Toast.LENGTH_SHORT).show()
+        }
+
+        // Get Car Details From Cars View
+
+        @Suppress("DEPRECATION")
+        val car = intent.getSerializableExtra("car") as? Car
+
+        val carImage = findViewById<ImageView>(R.id.iv_car)
+        val carName = findViewById<TextView>(R.id.tv_car_name)
+        val carDescription = findViewById<TextView>(R.id.tv_description)
+        val carRate = findViewById<TextView>(R.id.tv_rating)
+        val carPrice = findViewById<TextView>(R.id.tv_price)
+
+        car?.let {
+            carImage.setImageResource(it.imageResId)
+            carName.text = it.name.toString()
+            carDescription.text = it.description.toString()
+            carRate.text = it.rate.toString()
+            carPrice.text = it.price.toString()
         }
     }
 }
